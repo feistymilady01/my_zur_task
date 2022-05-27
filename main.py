@@ -11,16 +11,7 @@ def read_file_content(filename):
 
 read_file_content("story.txt")
 
-def count_words(text):
+def count_words():
     # [assignment] Add your code here 
-    my_dict = {}
-    text = read_file_content("story.txt")
-    for words in text:
-        if words in my_dict:
-            my_dict[words] += 1
-        else:
-            my_dict[words] = 0
-            my_dict[words] +=1
-        return my_dict
-
-print(count_words(text))
+    text = read_file_contrnt(./style txt)
+    return(word:text.count_word(word) for word in text.split)
