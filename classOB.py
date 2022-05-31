@@ -19,7 +19,7 @@ class Student:
 
     def get_score(self, get_score):
         self.score = get_score
-        if isinstance(self.age,int):
+        if changed(self.age,int):
             print(self.name, self.age, self.track, self.score)
         else:
             print("your age must be an integer, keep trying")
