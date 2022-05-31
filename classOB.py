@@ -11,19 +11,19 @@ class Student:
     # Method 
     def change_name(self, new_name):
         self.name = new_name
-        print(self.name)
+        return(self.name)
 
     def change_age(self, new_age):
         self.age = new_age
-        print(self.age)
+        return(self.age)
 
     def add_track(self, new_track):
         self.track = new_track
-        print (self.track)
+        return(self.track)
 
     def get_score(self, get_score):
         self.score = get_score
-        Print(self.score)
+        return(self.score)
 
         
 
