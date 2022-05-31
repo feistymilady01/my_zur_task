@@ -1,6 +1,7 @@
 class Student:
     # [assignment] Skeleton class. Add your code here
-    def __init__(self,name="Bob", age=26, tracks=["PY","CONDA"],score=20.90):
+    #Constructor
+    def __init__(self, name, age, track, score):
         self.name = name
         self.age = age
         self.tracks = tracks
