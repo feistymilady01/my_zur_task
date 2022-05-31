@@ -4,7 +4,7 @@ class Student:
     def __init__(self, name, age, track, score):
         self.name = name
         self.age = age
-        self.tracks = tracks
+        self.track = track
         self.score = score
 
     # Method 
@@ -15,7 +15,7 @@ class Student:
         self.age = new_age
 
     def add_track(self, new_track=["PY","CONDA"]):
-        self.tracks = new_track
+        self.track = new_track
 
     def get_score(self, get_score):
         self.score = get_score
@@ -26,8 +26,8 @@ class Student:
 
         
 
-Bob = Student(name="Bob", age=26, tracks=["PY","CONDA"],score=20.90)
-Peter = Student(name="Peter", age=34, tracks=["UI","UX"],score=30.90)
+Bob = Student("Bob", 26, ["PY","CONDA"], 20.90)
+Peter = Student("Peter", 34, ["UI","UX"], 30.90)
 
 # Expected methods
 print(Bob.change_name("Peter"))
