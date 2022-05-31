@@ -6,7 +6,7 @@ class Student:
         self.age = age
         self.track = track
         self.score = score
-        Print("my name is ", + name, "and I'm ", + age, "these are my track", + track, "and scored", + score,)
+        Print("my name is ", name, "and I'm ", age, "these are my track", track, "and scored", score,)
 
     # Method 
     def change_name(self, new_name):
