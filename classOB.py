@@ -6,6 +6,7 @@ class Student:
         self.age = age
         self.track = track
         self.score = score
+        Print("my name is ", + name, "and I'm ", + age, "these are my track", + track, "and scored", + score,)
 
     # Method 
     def change_name(self, new_name):
@@ -27,7 +28,6 @@ class Student:
         
 
 Bob = Student("Bob", 26, ["PY","CONDA"], 20.90)
-Peter = Student("Peter", 34, ["UI","UX"], 30.90)
 
 # Expected methods
 print(Bob.change_name("Peter"))
