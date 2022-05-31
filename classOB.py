@@ -10,19 +10,19 @@ class Student:
     # Method 
     def change_name(self, new_name):
         self.name = new_name
+        print(self.name)
 
     def change_age(self, new_age):
         self.age = new_age
+        print(self.age)
 
-    def add_track(self, new_track=["PY","CONDA"]):
+    def add_track(self, new_track):
         self.track = new_track
+        print (self.track)
 
     def get_score(self, get_score):
         self.score = get_score
-        if changed(self.age,int):
-            print(self.name, self.age, self.track, self.score)
-        else:
-            print("your age must be an integer, keep trying")
+        Print(self.score)
 
         
 
