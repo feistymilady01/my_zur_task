@@ -1,17 +1,17 @@
 # Please istructor the correct link to my Assignment is in the anchor tag using the CLI.
-<!DOCTYPE html>
-<html lang="en">
+#<!DOCTYPE html>
+#<html lang="en">
 <head>
-    <title>RSP</title>
-</head>
-<body>
-    <main>
+    #<title>RSP</title>
+#</head>
+#<body>
+    #<main>
         <a href="https://github.com/feistymilady01/Games">Correct link to the assignment!</a>
-    </main>
-</body>
-</html>
+    #</main>
+#</body>
+#</html>
 
-#Incase you dont use the link.... Here is the assignment below
+#Incase you dont use the link.... Here is the assignment below:
 import random
 
 input("You are welcome to Rock Paper Scissors game! Press enter to countinue \n")
