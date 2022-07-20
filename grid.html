@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid cards</title>
+</head>
+<style>
+    :root {
+        --background-color1: pink;
+        --background-color2: RED;
+        --background-color3: ORANGE;
+        --background-color4: GREEN;
+        --background-color5: BLUE;
+        --background-color6: GRAY;
+        --margin: 0px;
+        --margin1: 0px auto;
+        --padding: 0px;
+    }
+
+    * {
+        margin: var(--margin);
+        padding: var(--padding);
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: var(--background-color1);
+        display: flex;
+        place-items: center;
+        height: 100vh;
+        width: 50%;
+        margin: auto;
+
+    }
+
+    main {
+        display: grid;
+        grid-template-areas:
+            "a a a b c"
+            "d e e e c "
+        
+        gap: 20px;
+        box-shadow: 5px 5px 5px 5px black;
+
+    }
+
+    main div {
+        padding: 2em;
+        text-align: center;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .a {
+        background-color: var(--background-color2);
+        grid-area: a;
+    }
+
+    .b {
+        background-color: var(--background-color3);
+        grid-area: b;
+    }
+
+    .c {
+        background-color: var(--background-color4);
+        grid-area: c;
+    }
+
+    .d {
+        background-color: var(--background-color5);
+        grid-area: d;
+    }
+
+    .e {
+        background-color: var(--background-color6);
+        grid-area: e;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="a">RED</div>
+        <div class="b">ORANGE</div>
+        <div class="c">GREEN</div>
+        <div class="d">BLUE</div>
+        <div class="e">GRAY</div>
+    </main>
+</body>
+
+</html>
